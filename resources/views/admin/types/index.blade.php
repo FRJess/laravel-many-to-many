@@ -36,7 +36,6 @@
         @foreach ($types as $type)
           <tr>
             <td class="d-flex">
-
               @include('admin.partials.form-update', [
                   'route' => 'types',
                   'message' => "Do you want to update type $type->name ?",
